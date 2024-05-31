@@ -1,9 +1,9 @@
 const products = [
-    { name: 'Portable Blender', image: 'images/blender.jpg', link: '#', description: 'Perfect for smoothies on the go.' },
-    { name: 'Wireless Earbuds', image: 'images/earbuds.jpg', link: '#', description: 'Experience music wirelessly.' },
-    { name: 'Smart Watch', image: 'images/smartwatch.jpg', link: '#', description: 'Track your fitness and notifications.' },
-    { name: 'Electric Screwdriver', image: 'images/screwdriver.jpg', link: '#', description: 'Handy tool for DIY projects.' },
-    { name: 'Portable Charger', image: 'images/charger.jpg', link: '#', description: 'Keep your devices charged on the go.' }
+    { name: '1. Rak Tirisan Piring', image: 'images/1.jpg', link: 'https://shopee.co.id/product/464835137/20293266153', description: '' },
+    { name: 'Wireless Earbuds', image: 'images/earbuds.jpg', link: '#', description: '' },
+    { name: 'Smart Watch', image: 'images/smartwatch.jpg', link: '#', description: '' },
+    { name: 'Electric Screwdriver', image: 'images/screwdriver.jpg', link: '#', description: '' },
+    { name: 'Portable Charger', image: 'images/charger.jpg', link: '#', description: '' }
 ];
 
 function displayProducts(filteredProducts) {
@@ -14,10 +14,10 @@ function displayProducts(filteredProducts) {
         const productItem = document.createElement('div');
         productItem.className = 'product-item';
         productItem.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            <img src="${product.image}" href="${product.link}"alt="${product.name}">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
-            <a href="${product.link}" target="_blank">Buy Now</a>
+
         `;
         productList.appendChild(productItem);
     });
