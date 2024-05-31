@@ -2,15 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #eefdfd;
+    color: #0b2a48;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #0b2a48;
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
 }
 
 .search-container {
@@ -22,12 +30,17 @@ header {
     width: 80%;
     padding: 10px;
     font-size: 16px;
+    border: 2px solid #0b2a48;
+    border-radius: 5px;
 }
 
 .product-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
 }
 
 .product-item {
@@ -35,9 +48,11 @@ header {
     border: 1px solid #ddd;
     margin: 10px;
     padding: 20px;
-    width: calc(33% - 40px);
+    width: 100%;
+    max-width: 600px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    cursor: pointer;
 }
 
 .product-item:hover {
@@ -47,14 +62,24 @@ header {
 .product-item img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    color: #fabc12;
+}
+
+.product-item p {
+    margin: 10px 0;
+    color: #0b2a48;
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #0b2a48;
     color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
-    bottom: 0;
-}

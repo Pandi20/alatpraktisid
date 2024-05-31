@@ -1,9 +1,9 @@
 const products = [
-    { name: '1. Rak Tirisan Piring', image: 'images/1.jpg', link: 'https://shopee.co.id/product/464835137/20293266153', description: '' },
-    { name: 'Wireless Earbuds', image: 'images/earbuds.jpg', link: 'https://example.com/earbuds', description: 'Experience music wirelessly.' },
-    { name: 'Smart Watch', image: 'images/smartwatch.jpg', link: 'https://example.com/smartwatch', description: 'Track your fitness and notifications.' },
-    { name: 'Electric Screwdriver', image: 'images/screwdriver.jpg', link: 'https://example.com/screwdriver', description: 'Handy tool for DIY projects.' },
-    { name: 'Portable Charger', image: 'images/charger.jpg', link: 'https://example.com/charger', description: 'Keep your devices charged on the go.' }
+    { name: '1. Rak Tirisan Piring', link: 'https://shopee.co.id/product/464835137/20293266153', description: '' },
+    { name: 'Wireless Earbuds', link: 'https://example.com/earbuds', description: '' },
+    { name: 'Smart Watch', link: 'https://example.com/smartwatch', description: '' },
+    { name: 'Electric Screwdriver', link: 'https://example.com/screwdriver', description: '' },
+    { name: 'Portable Charger', link: 'https://example.com/charger', description: '' }
 ];
 
 function displayProducts(filteredProducts) {
@@ -14,10 +14,9 @@ function displayProducts(filteredProducts) {
         const productItem = document.createElement('div');
         productItem.className = 'product-item';
         productItem.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            // <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
-        
             `;
         productItem.addEventListener('click', () => {
             window.open(product.link, '_blank');
