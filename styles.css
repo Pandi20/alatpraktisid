@@ -31,7 +31,7 @@ header p {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #0b2a48;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .product-list {
@@ -41,18 +41,20 @@ header p {
     margin: 0 auto;
     padding: 0;
     width: 90%;
+    text-align: center;
 }
 
 .product-item {
     background-color: white;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 20px;
+    border: 2px solid #0b2a48;
+    margin: 5px;
+    padding: 1px;
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .product-item:hover {
@@ -75,11 +77,3 @@ header p {
     margin: 10px 0;
     color: #0b2a48;
 }
-
-footer {
-    background-color: #0b2a48;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
