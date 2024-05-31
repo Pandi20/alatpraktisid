@@ -14,7 +14,6 @@ function displayProducts(filteredProducts) {
         const productItem = document.createElement('div');
         productItem.className = 'product-item';
         productItem.innerHTML = `
-            // <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
             `;
