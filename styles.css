@@ -67,9 +67,10 @@ header p {
     margin-bottom: 10px;
 }
 
-.product-item h3 {
+.product-item h1 {
     margin: 10px 0;
     color: #654B01;
+    font-size:18px;
 }
 
 .product-item p {
