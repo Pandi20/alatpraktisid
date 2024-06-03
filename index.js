@@ -14,7 +14,7 @@ function displayProducts(filteredProducts) {
         const productItem = document.createElement('div');
         productItem.className = 'product-item';
         productItem.innerHTML = `
-            <h3>${product.name}</h3>
+            <h1>${product.name}</h1>
             <p>${product.description}</p>
             `;
         productItem.addEventListener('click', () => {
