@@ -1,9 +1,11 @@
 const products = [
-{ name: '1. Lampu Kipas', link: 'https://s.shopee.co.id/6fLnkUfAso', description: '' },
+{ name: '1. Lampu Kipas', link: 'https://s.shopee.co.id/9pItKLzdJq', description: '' },
 { name: '2. Cermin Putar', link: 'https://s.shopee.co.id/9Ufz6JTnCO', description: '' },
 { name: '3. Karpet Lantai Puzzle', link: 'https://s.shopee.co.id/3L5LlJimm6', description: '' },
 { name: '4. Kipas Angin Ekstraktor', link: 'https://s.shopee.co.id/9ezPJFHwQ8', description: '' },
-{ name: '5. Lantai Kayu Jati Portable', link: 'https://s.shopee.co.id/3VOlyU9Cvh', description: '' }
+{ name: '5. Lantai Kayu Jati Portable', link: 'https://s.shopee.co.id/3VOlyU9Cvh', description: '' },
+{ name: '6. Kanopi Lipat', link: 'https://s.shopee.co.id/2fpiNx3L1x', description: '' },
+{ name: '7. Kursi Lipat Camping', link: 'https://s.shopee.co.id/1qGbnTLXTn', description: '' }
 ];
 
 function displayProducts(filteredProducts) {
