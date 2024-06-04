@@ -19,7 +19,7 @@ const products = [
 { name: '18. Rak Susun Troli   ', link: 'https://s.shopee.co.id/1qGca5rM4P', description: '' },
 { name: '19. Pembersih Noda Pakaian', link: 'https://s.shopee.co.id/1LKLzAtG5K', description: '' },
 { name: '20. Rak Susun Segitiga', link: 'https://s.shopee.co.id/1VdmBTsckN', description: '' },
-{ name: '21. Tempat Baca Al-Qur'an', link: 'https://s.shopee.co.id/2LCtB0pS3Y', description: '' },
+{ name: '21. Tempat Baca Al-Quran', link: 'https://s.shopee.co.id/2LCtB0pS3Y', description: '' },
 { name: '22. Raket Nyamuk', link: 'https://s.shopee.co.id/2VWJNJooib', description: '' },
 { name: '23. Lampu Belajar', link: 'https://s.shopee.co.id/20a2mOqijW', description: '' },
 { name: '24. Pengusir Cicak', link: 'https://s.shopee.co.id/2AtSyhq5OZ', description: '' },
